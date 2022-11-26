@@ -19,7 +19,20 @@ body {
     height: 11in;
     background: white;
     overflow: hidden;
-    padding: 10px;
+    padding: 0.25in;
+    font-size: 14px !important;
+}
+
+#heading {
+    margin-bottom: 0.3in;
+}
+
+#heading h1 {
+    margin-top: 10px;
+}
+
+#experience h2 {
+    margin-top: 2px;
 }
 
 #main-row {
@@ -30,9 +43,9 @@ body {
 #left-column {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 36%;
     align-items: stretch;
-    margin-right: 20px;
+    margin-right: 0.3in;
 }
 
 .double-header-row {
@@ -42,7 +55,7 @@ body {
 }
 
 .double-header-row th {
-    border: none!important;
+    border: none !important;
 }
 
 .double-header-row-text {
@@ -51,10 +64,16 @@ body {
     transform: translateX(-50%);
 }
 
-h2 {
-    margin: 5px 0!important;
+.markdown-body table.evenly-wide-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
 }
 
-h4 {
-    margin: 4px 0!important;
+table.first-col-wide-table td:nth-of-type(1) {
+    width: 1.224in !important;  /* 😬 */
+}
+
+table.first-col-wide-table td:nth-of-type(2) {
+    width: 1.836in !important;  /* 😬 */
 }
