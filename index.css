@@ -22,18 +22,39 @@ body {
     padding: 10px;
 }
 
-#wtfme-header-row {
+#main-row {
+    display: flex;
+    width: 100%;
+}
+
+#left-column {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: stretch;
+    margin-right: 20px;
+}
+
+.double-header-row {
     position: relative;
     border: 1px solid var(--color-border-default);
     background-clip: text;
 }
 
-#wtfme-header-row th {
-    border: none;
+.double-header-row th {
+    border: none!important;
 }
 
-#wtfme-header {
+.double-header-row-text {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+h2 {
+    margin: 5px 0!important;
+}
+
+h4 {
+    margin: 4px 0!important;
 }
