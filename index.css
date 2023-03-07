@@ -77,3 +77,11 @@ table.first-col-wide-table td:nth-of-type(1) {
 table.first-col-wide-table td:nth-of-type(2) {
     width: 1.836in !important;  /* 😬 */
 }
+
+h4 {
+    margin-bottom: 5px!important;
+}
+
+h4:first-of-type {
+    margin-top: 5px!important;
+}
