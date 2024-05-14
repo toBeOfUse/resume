@@ -1,3 +1,8 @@
+
+@layer md;
+
+@import url(node_modules/github-markdown-css/github-markdown.css) layer(md);
+
 html {
     overflow: auto;
 }
@@ -84,4 +89,13 @@ h4 {
 
 h4:first-of-type {
     margin-top: 5px!important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+a {
+    color: black;
 }
